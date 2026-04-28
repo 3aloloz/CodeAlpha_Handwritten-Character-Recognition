@@ -89,6 +89,12 @@ OCR predictions visualization
 <img width="1119" height="700" alt="Screenshot 2026-04-28 174429" src="https://github.com/user-attachments/assets/14a7d20e-c2ab-4f5d-9f6c-f7599e6b0acf" />
 <img width="593" height="445" alt="Screenshot 2026-04-28 174417" src="https://github.com/user-attachments/assets/17b52468-767e-4409-90be-61583e4bb379" />
 
+<img width="640" height="180" alt="Screenshot 2026-04-28 175705" src="https://github.com/user-attachments/assets/53fec650-88f5-4e2a-8298-b323f1f63046" />
+<img width="743" height="674" alt="Screenshot 2026-04-28 175651" src="https://github.com/user-attachments/assets/42c1ac35-f789-4aac-a01d-4fbd4f1be467" />
+<img width="1131" height="426" alt="Screenshot 2026-04-28 175642" src="https://github.com/user-attachments/assets/1c0c6070-e607-4c91-bdbb-22aca1278c50" />
+<img width="397" height="149" alt="Screenshot 2026-04-28 175719" src="https://github.com/user-attachments/assets/b8a95ec9-36bc-4152-a680-6a1ae12bbd1c" />
+
+
 🔮 Future Improvements
 Beam Search decoding for higher accuracy
 Attention-based OCR (Transformer models)
