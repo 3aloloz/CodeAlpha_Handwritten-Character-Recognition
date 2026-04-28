@@ -1,6 +1,7 @@
 📌 Project Overview
 This project implements a complete handwritten character recognition system using deep learning. It starts from digit/character classification (CNN) and extends to full word recognition using a CRNN (CNN + BiLSTM + CTC Loss).
 
+This project builds a handwritten character recognition system using the EMNIST Balanced dataset (47 classes, ~131,600 samples), which required fixing a known orientation bug by rotating and mirroring the raw images. After confirming a perfectly uniform class distribution (~2,400 samples per class), pixel values were normalized to [0,1] and binarized via Otsu thresholding to produce clean black-on-white 28×28 inputs. A CNN with three convolutional blocks (32→64→128 filters), batch normalization, dropout, and a 256-unit dense head was trained for 25 epochs, reaching ~90% validation accuracy with well-converged loss curves and strong diagonal dominance in the 47-class confusion matrix. The trained model was then used to assemble arbitrary handwritten words by retrieving and rendering individual predicted characters in sequence.
 ---
 
 ## 🚀 Features
