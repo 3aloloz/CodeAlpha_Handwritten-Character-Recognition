@@ -1,0 +1,11 @@
+Handwritten-Character-Recognition/
+│
+├── notebooks/
+├── src/
+├── data/
+├── outputs/
+│   ├── images/
+│   ├── models/
+│
+├── README.md
+└── requirements.txt
