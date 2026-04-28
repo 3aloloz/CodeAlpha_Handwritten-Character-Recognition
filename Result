@@ -1,0 +1,78 @@
+🧩 Phase 1 — CNN for Character Recognition
+
+In this phase, a Convolutional Neural Network (CNN) is trained on EMNIST characters.
+
+Goal:
+
+Learn to classify individual handwritten characters
+
+What happens:
+
+Input: 28×28 grayscale images
+Model: CNN (Conv + Pooling layers)
+Output: Character prediction (A–Z / digits)
+
+Result:
+
+Baseline model for character-level recognition
+🧩 Phase 2 — Data Preprocessing & Cleaning
+
+Before training deep models, the dataset is cleaned and prepared.
+
+Steps include:
+
+Normalization of pixel values
+Noise reduction and thresholding
+Image resizing and padding
+Dataset balancing and mapping labels to characters
+
+Result:
+
+Clean and structured dataset ready for deep learning models
+🧩 Phase 3 — CRNN for Sequence Recognition
+
+This is the core of the OCR system.
+
+Model:
+
+CNN + BiLSTM (CRNN)
+Connectionist Temporal Classification (CTC) loss
+
+Goal:
+
+Convert image sequences into character sequences (words)
+
+What happens:
+
+CNN extracts visual features
+BiLSTM learns sequence dependencies
+CTC aligns predictions without needing character segmentation
+
+Result:
+
+Word-level handwritten recognition
+🧩 Phase 4 — OCR Inference System
+
+Final stage where the trained model is used for prediction.
+
+What happens:
+
+Input image → CRNN model → probability sequence
+CTC decoder converts output into readable text
+
+Features:
+
+Greedy decoding (CTC)
+Image → Word prediction
+Visualization of results
+
+Result:
+
+Complete OCR system capable of recognizing handwritten words
+🚀 Final Outcome
+
+This project demonstrates a full OCR pipeline:
+
+Character recognition (CNN)
+Sequence modeling (CRNN)
+End-to-end handwritten word recognition system
